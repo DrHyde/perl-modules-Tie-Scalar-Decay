@@ -1,6 +1,8 @@
+CHANGES
 lib/Tie/Scalar/Decay.pm
-test.pl
 Makefile.PL
 MANIFEST
 README
-CHANGES
+t/all.t
+t/pod-coverage.t
+t/pod.t
