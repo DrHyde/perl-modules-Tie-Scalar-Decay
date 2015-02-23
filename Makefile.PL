@@ -3,8 +3,9 @@ WriteMakefile(
 		NAME	=> 'Tie::Scalar::Decay',
     META_MERGE => {
         license => 'other',
-        resource => {
-	    repository => 'https://github.com/DrHyde/perl-modules-Tie-Scalar-Decay'
+        resources => {
+	    repository => 'https://github.com/DrHyde/perl-modules-Tie-Scalar-Decay',
+	    bugtracker => 'https://github.com/DrHyde/perl-modules-Tie-Scalar-Decay/issues'
         }
     },
 		VERSION => '1.1.1',
