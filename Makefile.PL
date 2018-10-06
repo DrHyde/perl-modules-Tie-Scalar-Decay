@@ -1,8 +1,8 @@
 use ExtUtils::MakeMaker;
 WriteMakefile(
 		NAME	=> 'Tie::Scalar::Decay',
+		LICENSE	=> 'perl_5',
     META_MERGE => {
-        license => 'open_source',
         resources => {
 	    repository => 'https://github.com/DrHyde/perl-modules-Tie-Scalar-Decay',
 	    bugtracker => 'https://github.com/DrHyde/perl-modules-Tie-Scalar-Decay/issues'
