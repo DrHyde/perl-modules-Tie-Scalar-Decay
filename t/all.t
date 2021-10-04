@@ -9,6 +9,8 @@ END { print "not ok 1\n" unless $loaded; }
 
 use Tie::Scalar::Decay;
 
+# if these tests are ever re-written to use Test::More etc and
+# mock time reliably, reinstate OpenBSD testing
 $loaded=1;
 print "ok 1\n";
 
