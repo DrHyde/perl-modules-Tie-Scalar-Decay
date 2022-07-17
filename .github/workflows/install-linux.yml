@@ -1,3 +1,6 @@
+# NB there's no OpenBSD version because nested virtualisation messes with
+# timing too much
+
 on: [push, pull_request]
 name: Linux install
 
