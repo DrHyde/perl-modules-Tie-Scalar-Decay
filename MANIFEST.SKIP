@@ -1,4 +1,2 @@
-.travis.yml
 ^\.git
-.cirrus.yml
-.appveyor.yml
+^workflow-templates
